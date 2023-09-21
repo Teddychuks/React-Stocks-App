@@ -1,45 +1,54 @@
-import {
-  HiBellAlert,
-  HiEnvelopeOpen,
-  HiMiniGlobeEuropeAfrica,
-} from "react-icons/hi2";
-import SearchStocks from "./SearchStocks";
-import { RiMenuFoldFill, RiMenuUnfoldFill } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
 
-function Header({ open, setOpen, selectedPage }) {
+function Header() {
+  const Menus = [
+    { title: "Overview" },
+    { title: "News" },
+    { title: "Indices" },
+  ];
+
   return (
-    <header className="flex items-center justify-between border-b border-stone-200 bg-slate-50 py-3 px-3">
-      <span
-        className="font-bold text-lg text-neutral-900 tracking-wide inline-flex gap-2 w-52 "
-        onClick={() => setOpen(!open)}
-      >
-        {open ? (
-          <RiMenuUnfoldFill className="w-7 h-7" />
-        ) : (
-          <RiMenuFoldFill className="w-7 h-7" />
-        )}
-        {selectedPage}
-      </span>
+    <div>
+      <div className=" w-full left-0">
+        <header className="fixed flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full  text-sm py-4 bg-gray-800 ">
+          <nav
+            className=" w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+            aria-label="Global"
+          >
+            <div className="ml-4 inline-flex gap-2">
+              <img
+                src="stockslogo.png"
+                alt="stocklogo"
+                className={` w-10 h-10 ${!open && ""}`}
+              />
+              <h1
+                className={`flex-none text-xl font-semibold text-neutral-50 ${
+                  !open && "hidden"
+                }`}
+              >
+                React stocks App
+              </h1>
+            </div>
 
-      <SearchStocks className="" />
-
-      <div className="flex items-center">
-        <div className="hidden sm:inline-flex mr-8  gap-x-6">
-          <HiMiniGlobeEuropeAfrica className="flex  hover:bg-blue-500 hover:text-neutral-50 rounded-full w-6 h-6" />
-          <HiEnvelopeOpen className="flex hover:bg-blue-500 hover:text-neutral-50 rounded-full w-6 h-6" />
-          <HiBellAlert className="flex hover:bg-blue-500 hover:text-neutral-50 rounded-full w-6 h-6" />
-        </div>
-
-        <div className="inline-flex items-center gap-x-2">
-          <img
-            src="profilelogo.png"
-            alt="profile"
-            className="w-8 h-8 rounded-full "
-          />
-          <p className="font-medium text-neutral-900">Teddychuks</p>
-        </div>
+            <div className="flex flex-row items-center gap-5 mt-5 sm:justify-end sm:mt-0 sm:pl-5">
+              {Menus.map((menu, index) => (
+                <NavLink
+                  key={index}
+                  to={menu.title.toLowerCase().replace(/ & /g, "")}
+                  className={({ isActive }) =>
+                    `font-medium text-blue-500 ${
+                      isActive ? "text-neutral-50" : ""
+                    }`
+                  }
+                >
+                  {menu.title}
+                </NavLink>
+              ))}
+            </div>
+          </nav>
+        </header>
       </div>
-    </header>
+    </div>
   );
 }
 
