@@ -6,9 +6,6 @@ import AppLayout from "./ui/AppLayout";
 import Overview from "./Pages/Overview";
 import News from "./Pages/News";
 import Indices from "./Pages/Indices";
-import Market from "./Pages/Market";
-import Community from "./Pages/Community";
-import HelpSupport from "./Pages/HelpSupport";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -30,10 +27,6 @@ function App() {
               <Route path="overview" element={<Overview />} />
               <Route path="news" element={<News />} />
               <Route path="indices" element={<Indices />} />
-              <Route path="market" element={<Market />} />
-              <Route path="community" element={<Community />} />
-              <Route path="news" element={<News />} />
-              <Route path="helpsupport" element={<HelpSupport />} />
             </Route>
           </Routes>
         </BrowserRouter>

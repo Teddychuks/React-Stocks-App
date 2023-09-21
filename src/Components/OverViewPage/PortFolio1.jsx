@@ -27,12 +27,9 @@ const CustomTooltip = ({ active, payload }) => {
 };
 
 function PortFolio1() {
-  // const { isLoading: isLoadingPrices, liveprices } = useLivePrices();
   const { isLoading: isLoadingTimeSeries, timeseries } = useTimeSeries();
   const { isLoading: isLoadingLivePrices, livepricesarray } =
     useLivePricesArray();
-
-  console.log(livepricesarray);
 
   if (isLoadingLivePrices) return <Spinner />;
   if (isLoadingTimeSeries) return <SmallSpinner />;
