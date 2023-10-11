@@ -56,7 +56,7 @@ function PortFolio1() {
 
   return (
     <div>
-      <div className="group flex flex-col justify-center hover:bg-slate-200 rounded-xl p-3 md:p-5">
+      <div className="flex flex-col justify-center hover:bg-slate-200 rounded-xl p-3 md:p-5">
         <div className="flex justify-between items-center">
           <button className="py-3 flex justify-center items-center rounded-md border border-transparent font-semibold text-white hover:bg-blue-600 focus:outline-none text-sm bg-neutral-900">
             <FaApple className="w-6 h-6" />
