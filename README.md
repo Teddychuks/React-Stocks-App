@@ -6,6 +6,7 @@ React Stocks App is a web application built with React that provides real-time s
 The version of this project hosted on Netlify may occasionally encounter a 500 internal server error. This can happen because I am utilizing a third-party API endpoint that is free, and while it usually functions well, occasional errors may occur.
 
 Open http://reactstocksapp.netlify.app to view the hosted version
+
 ## Projects Description
 
 - The react stocks app is a stocks information application that displays live prices and technicals of four stocks mainly: AAPL,GOOGL,MSFT,NVDA
@@ -15,21 +16,20 @@ Open http://reactstocksapp.netlify.app to view the hosted version
 - It displays in a tabular format the top 50 major indices around the world together with various information for the indices: price,technicals,fundamentals,performance
 
 ## Desktop View
-![Screenshot from 2023-10-12 09-35-15](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/b8e0fdc4-e4e2-43d7-9a87-ffda3d39157e)
-![Screenshot from 2023-10-12 09-35-32](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/606c320e-6faf-4417-9472-d5eed47c676b)
-![Screenshot from 2023-10-12 09-35-45](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/53a95c63-8b54-4928-9ade-c1da5e3e8916)
-![Screenshot from 2023-10-12 09-36-03](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/225e70e0-1343-4d4f-9452-4614f7088221)
+![Screenshot from 2023-10-12 09-35-15](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/760b2bde-84bc-4c54-b233-8874b5887acb)
+![Screenshot from 2023-10-12 09-35-32](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/04c42d0f-85bc-46ed-9888-e6fe0bda4d8e)
+![Screenshot from 2023-10-12 09-35-45](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/81704220-0830-4a08-bb68-bf452c44c04c)
+![Screenshot from 2023-10-12 09-36-03](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/8f3a4594-1fce-49a3-aab5-9144cc6843be)
+
 
 ## Mobile View
-![IMG_4445](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/751d2c68-848e-4156-b167-b4d4b8984223)
-![IMG_4446](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/24e35844-9c0a-4343-ba30-33ccba9eab75)
-![IMG_4447](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/d1ea072b-c0a6-42f4-9267-1b67a45c7902)
-![IMG_4448](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/666f9399-3cf9-4394-a01e-a950ec31a50d)
-![IMG_4449](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/4ef8c131-972c-49ff-a71d-82a19ce3b72b)
-
+![IMG_4445](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/1a2ee30d-c13e-4536-a869-1df359293366)
+![IMG_4446](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/c15319ce-cc2c-4801-a12d-528279625376)
+![IMG_4447](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/d697fe80-2d6f-4be5-ba81-c937723bfb02)
+![IMG_4448](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/65971da9-0627-4f47-9470-4f0c9efc0acd)
+![IMG_4449](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/03727543-33cf-4b71-95d9-6b672944eecd)
 
 ## Technologies Used
-
 - React
 - React Query
 - React Icons
@@ -43,7 +43,8 @@ To set up the app locally, run the following commands:
 
 ```shell
 
-yarn install
+yarn install![Screenshot from 2023-10-12 09-35-32](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/ad3517d1-87e0-48d1-8ec3-c11c33238e0b)
+
 yarn dev
 ```
 
@@ -56,6 +57,9 @@ npm run dev
 ```
 
 Open http://localhost:5000 to view the project in the browser.
+
+
+
 
 
 
