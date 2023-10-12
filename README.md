@@ -55,3 +55,4 @@ Open http://localhost:5000 to view the project in the browser.
 Open http://reactstocksapp.netlify.app to view the hosted version
 
 ## Disclaimer
+The version of this project hosted on Netlify may occasionally encounter a 500 internal server error. This can happen because I am utilizing a third-party API endpoint that is free, and while it usually functions well, occasional errors may occur.
