@@ -11,8 +11,9 @@ React Stocks App is a web application built with React that provides real-time s
 - It displays in a tabular format the top 50 major indices around the world together with various information for the indices: price,technicals,fundamentals,performance
 
 ## Demo Screenshots
+![Screenshot from 2023-10-12 09-35-15](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/b8e0fdc4-e4e2-43d7-9a87-ffda3d39157e)
 
-![Portfolio stocks](readmeimages/Screenshot from 2023-10-12 09-35-15.png)
+
 
 ## Technologies Used
 
