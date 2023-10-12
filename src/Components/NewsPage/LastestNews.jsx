@@ -6,7 +6,7 @@ function LatestNews() {
 
   return (
     <div className="mx-auto px-4 sm:px-6">
-      <div className="lg:w-full">
+      <div className="lg:w-full py-12">
         <div className="text-center mb-6">
           <h2 className="text-4xl font-bold text-gray-900">Latest News</h2>
           <p className="mt-2 text-gray-600">

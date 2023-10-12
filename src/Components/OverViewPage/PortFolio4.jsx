@@ -61,12 +61,6 @@ function PortFolio4() {
             <img src="nvidia.png" alt="logo" className="w-6 h-6" />
             <span className="px-2 text-white ">Nvidia Inc</span>
           </button>
-
-          <div>
-            <span className="font-bold text-sm text-gray-500">
-              {livepricesarray.symbols[3]}
-            </span>
-          </div>
         </div>
 
         <div className="mt-3 flex">
@@ -87,7 +81,11 @@ function PortFolio4() {
             </span>
           </div>
 
-          <div className="mt-4 ml-auto mr-2 sm:mr-4">
+          <div className="ml-10 sm:mt-4 sm:ml-auto mr-2 sm:mr-4">
+            <span className="font-bold text-sm text-gray-500 px-36 mb-8">
+              {livepricesarray.symbols[3]}
+            </span>
+
             {!timeseries ? (
               <div className="text text-xs text-blue-500 ">
                 Refresh after 1 minute <SmallSpinner />

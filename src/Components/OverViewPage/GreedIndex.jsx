@@ -33,11 +33,11 @@ const TriangleBar = (props) => {
 const getColorForValueText = (valueText) => {
   switch (valueText) {
     case "Neutral":
-      return "#00C49F";
+      return "#4ade80";
     case "Extreme Greed":
-      return "#FF0000";
+      return "#16a34a";
     case "Extreme Fear":
-      return "#0026ff";
+      return "#b91c1c";
     case "Fear":
       return "#ef4444";
     default:
@@ -62,17 +62,17 @@ export default function GreedIndex() {
             valueText: greedindex.previousClose.valueText,
           },
           {
-            name: "one week",
+            name: "1 week",
             value: greedindex.oneWeekAgo.value,
             valueText: greedindex.oneWeekAgo.valueText,
           },
           {
-            name: "one month",
+            name: "1 month",
             value: greedindex.oneMonthAgo.value,
             valueText: greedindex.oneMonthAgo.valueText,
           },
           {
-            name: "one year",
+            name: "1 year",
             value: greedindex.oneYearAgo.value,
             valueText: greedindex.oneYearAgo.valueText,
           },
@@ -132,7 +132,7 @@ export default function GreedIndex() {
                 const textColor = isExtremeGreed ? "#FF0000" : "#666";
                 const fontSize = isExtremeGreed ? 14 : 12;
                 const xShift = isExtremeGreed ? -8 : 0;
-                const yShift = isExtremeGreed ? -17 : 0;
+                const yShift = isExtremeGreed ? -17 : 4;
                 const isNeutral = value === "Neutral";
                 const yaxisShift = isNeutral ? -20 : 0;
 
