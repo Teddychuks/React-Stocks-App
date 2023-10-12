@@ -12,7 +12,6 @@ React Stocks App is a web application built with React that provides real-time s
 
 ## Demo Screenshots
 
--Desktop View
 ![Portfolio stocks](readmeimages/Screenshot from 2023-10-12 09-35-15.png)
 
 ## Technologies Used
