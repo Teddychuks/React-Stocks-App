@@ -10,7 +10,7 @@ Open http://reactstocksapp.netlify.app to view the hosted version
 ## Projects Description
 
 - The react stocks app is a stocks information application that displays live prices and technicals of four stocks mainly: AAPL,GOOGL,MSFT,NVDA
-- It displays 15minutes live trading volume chart and current fear and greed index of the generals market
+- It displays 15minutes live trading volume chart and current fear and greed index of the general market
 - It displays in a tabular format the top 50 most actively traded stocks in the us together with various information for the stocks:price,technicals,fundamentals,performance
 - It also displays various current market news and economy news for traders to make informed decisions
 - It displays in a tabular format the top 50 major indices around the world together with various information for the indices: price,technicals,fundamentals,performance
