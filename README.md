@@ -44,7 +44,7 @@ To set up the app locally, run the following commands:
 
 ```shell
 
-yarn install![Screenshot from 2023-10-12 09-35-32](https://github.com/Teddychuks/React-Stocks-App/assets/129964444/ad3517d1-87e0-48d1-8ec3-c11c33238e0b)
+yarn install
 
 yarn dev
 ```
